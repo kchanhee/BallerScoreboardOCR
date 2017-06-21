@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TesseractOCR/TesseractOCR.h>
+#import <opencv2/videoio/cap_ios.h>
 
-@interface ViewController : UIViewController
-
+using namespace cv;
+@interface ViewController : UIViewController <CvVideoCameraDelegate, G8TesseractDelegate>
+@property (strong) CvVideoCamera *camera;
 
 @end
 
