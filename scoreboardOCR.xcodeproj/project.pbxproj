@@ -25,7 +25,7 @@
 		64594F8D1EF1F06B001F859C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64594F8C1EF1F06B001F859C /* CoreVideo.framework */; };
 		64594F8F1EF1F08C001F859C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64594F8E1EF1F08C001F859C /* CoreMedia.framework */; };
 		64594F911EF1F091001F859C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64594F901EF1F091001F859C /* AssetsLibrary.framework */; };
-		64FE8E711EF1ABB000240EAE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 64FE8E701EF1ABB000240EAE /* tessdata */; };
+		64594F941EFB8965001F859C /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 64594F931EFB8965001F859C /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,7 @@
 		64594F8C1EF1F06B001F859C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		64594F8E1EF1F08C001F859C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		64594F901EF1F091001F859C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		64FE8E701EF1ABB000240EAE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		64594F931EFB8965001F859C /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		A275FC07277DEA12EAFD6897 /* Pods-scoreboardOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scoreboardOCR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scoreboardOCR/Pods-scoreboardOCR.debug.xcconfig"; sourceTree = "<group>"; };
 		C112734505FA1F1C9BC2DC0B /* libPods-scoreboardOCR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-scoreboardOCR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2EFF9F5091CDC92B0B54DDB /* Pods-scoreboardOCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scoreboardOCR.release.xcconfig"; path = "Pods/Target Support Files/Pods-scoreboardOCR/Pods-scoreboardOCR.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +100,7 @@
 		6406BE511EF0BAB40045E7C1 /* scoreboardOCR */ = {
 			isa = PBXGroup;
 			children = (
+				64594F931EFB8965001F859C /* tessdata */,
 				6406BE551EF0BAB40045E7C1 /* AppDelegate.h */,
 				6406BE561EF0BAB40045E7C1 /* AppDelegate.m */,
 				6406BE581EF0BAB40045E7C1 /* ViewController.h */,
@@ -108,7 +109,6 @@
 				6406BE5E1EF0BAB40045E7C1 /* Assets.xcassets */,
 				6406BE601EF0BAB40045E7C1 /* LaunchScreen.storyboard */,
 				6406BE631EF0BAB40045E7C1 /* Info.plist */,
-				64FE8E701EF1ABB000240EAE /* tessdata */,
 				6406BE521EF0BAB40045E7C1 /* Supporting Files */,
 			);
 			path = scoreboardOCR;
@@ -213,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6406BE621EF0BAB40045E7C1 /* LaunchScreen.storyboard in Resources */,
-				64FE8E711EF1ABB000240EAE /* tessdata in Resources */,
+				64594F941EFB8965001F859C /* tessdata in Resources */,
 				6406BE5F1EF0BAB40045E7C1 /* Assets.xcassets in Resources */,
 				6406BE5D1EF0BAB40045E7C1 /* Main.storyboard in Resources */,
 			);
