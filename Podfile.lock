@@ -1,0 +1,18 @@
+PODS:
+  - IPDFCameraViewController (0.0.1)
+  - OpenCV (3.1.0.1)
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - IPDFCameraViewController
+  - OpenCV
+  - TesseractOCRiOS (= 4.0.0)
+
+SPEC CHECKSUMS:
+  IPDFCameraViewController: c7e346c760d39ed7a137121bedfcecfde041cde6
+  OpenCV: 41c4250e2b06a394d6fbb634b5fa622cdd846018
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+
+PODFILE CHECKSUM: 25f9ee7b0c0f305b36ca9576c9b9da58b3d87229
+
+COCOAPODS: 1.2.0
